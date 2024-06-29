@@ -1,12 +1,62 @@
 body {
-  background: paleturquoise;
-  color: white;
+  background-color: palegoldenrod;
+  font-family: sans-serif;
 }
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.holder {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  margin: 60px 0;
+  padding: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+}
+
+.city:last-child {
+  border: none;
+}
+h2 {
+  margin-top: 0 0 5px;
+  font-size: 28px;
+}
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 21px;
+  list-style: 36px;
+  vertical-align: middle;
+}
+select {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 18px;
 }
 
 footer {
   text-align: center;
+  font-size: 18px;
+  color: grey;
 }
