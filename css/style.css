@@ -1,5 +1,11 @@
 body {
-  background-color: palegoldenrod;
+  background-image: linear-gradient(
+    to left,
+    #5585b5,
+    #53a8b6,
+    #79c2d0,
+    #bbe4e9
+  );
   font-family: sans-serif;
 }
 
@@ -62,5 +68,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: grey;
+  color: floralwhite;
 }
